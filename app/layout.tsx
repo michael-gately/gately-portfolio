@@ -4,6 +4,7 @@ import './globals.css'
 import NavSide from './components/nav'
 import Footer from './components/footer'
 import { ThemeProvider } from 'next-themes'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ return (
     <main className='col-span-3'>{children}</main>
     <Footer />
   </ThemeProvider>
+  <SpeedInsights />
 </body>
 
 </html>
