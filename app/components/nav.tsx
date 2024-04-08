@@ -18,10 +18,10 @@ const ThemeChanger = () => {
   }
 
   if(theme === 'light'){
-    return <button onClick={() => setTheme('dark')} className={rubik.className.concat(" ", " pt-1")}>Dark Mode</button>
+    return <button onClick={() => setTheme('dark')} className={rubik.className.concat(" ", " pt-1 text-left")}>Dark Mode</button>
   }
   if(theme === 'dark'){
-    return <button onClick={() => setTheme('light')} className={rubik.className.concat(" ", " pt-1")}>Light Mode</button>
+    return <button onClick={() => setTheme('light')} className={rubik.className.concat(" ", " pt-1 text-left")}>Light Mode</button>
   }
   else{
     setTheme('dark')
