@@ -11,7 +11,7 @@ export default function Projects() {
 return (
 <div className='pl-8 md:pl-0 pt-8 pr-16'>
     <div className={bodyPoppins.className.concat(" ", " text-left text-base md:text-lg")}>
-        Athlete's Grind Automation
+        Athlete&apos;s Grind Automation
     </div>
     <div className={bodyPoppins.className.concat(" ", " pt-8 text-left text-sm md:text-base")}>
         A friend of mine needed help automating his coffee business for scale.
