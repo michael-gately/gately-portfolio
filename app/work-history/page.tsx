@@ -1,4 +1,4 @@
-import { Poppins, Rubik } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
 const bodyPoppins = Poppins({
 subsets: ['latin'],
