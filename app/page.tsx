@@ -16,7 +16,7 @@ style: "normal"
 
 export default function Home() {
 return (
-<main className="md:pl-0 pt-8 pr-16 text-center">
+<main className="md:pl-0 pt-8 text-center">
   <div className={rubik.className.concat(" ", " pt-32 pl-32 pr-32 pb-8 text-4xl")}> &#128075; Hi I&apos;m Mike </div>
   <div className={rubik.className.concat(" ", " text-base pl-32 pr-32 pb-8")}>A subject matter expert in Backend Software Development</div>
   <Link href="/skills">
