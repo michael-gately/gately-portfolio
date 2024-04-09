@@ -27,7 +27,8 @@ return (
     <div className='col-span-1'>
       <NavSide />
     </div>
-    <main className='col-span-3'>{children}</main>
+    <main className='col-span-2'>{children}</main>
+    <div className='col-span-1'></div>
     <Footer />
   </ThemeProvider>
   <SpeedInsights/>
