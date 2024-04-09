@@ -55,10 +55,15 @@ style: "italic"
 
 export default function NavSide() {
 return(
-<div className='flex flex-col pt-8 pl-8 text-base text-left italic'>
+<div className='flex flex-col pt-8 pl-8 text-base text-left italic sticky'>
     <div className={poppins.className}>
         <Link href="/">
         Michael Gately
+        </Link>
+    </div>
+    <div className={rubik.className.concat(" ", " pt-1")}>
+        <Link href="/skills">
+        Skills
         </Link>
     </div>
     <div className={rubik.className.concat(" ", " pt-1")}>
@@ -72,24 +77,19 @@ return(
         </Link>
     </div>
     <div className={rubik.className.concat(" ", " pt-1")}>
-        <Link href="/interests">
-        Interests
-        </Link>
-    </div>
-    <div className={rubik.className.concat(" ", " pt-1")}>
         <Link href="/blog">
         Blog
         </Link>
     </div>
-    <div>
+    <div className='pt-1'>
         <Link href="https://github.com/michaelgately1" target="_blank" rel="noopener noreferrer"
-            className={rubik.className.concat(" ", " pt-1")}>
+            className={rubik.className.concat(" ", "")}>
         Github
         </Link>
     </div>
-    <div>
+    <div className='pt-1'>
         <Link href="https://www.linkedin.com/in/michaelgately/" target="_blank" rel="noopener noreferrer"
-            className={rubik.className.concat(" ", " pt-1")}>
+            className={rubik.className.concat(" ", " ")}>
         LinkedIn
         </Link>
     </div>
