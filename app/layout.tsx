@@ -22,7 +22,7 @@ children: React.ReactNode
 return (
 <html lang="en" suppressHydrationWarning>
 
-<body className='grid grid-cols-4'>
+<body className='grid grid-cols-4 overscroll-none'>
   <ThemeProvider>
     <div className='col-span-1'>
       <NavSide />

@@ -55,7 +55,7 @@ style: "italic"
 
 export default function NavSide() {
 return(
-<div className='flex flex-col pt-8 pl-8 text-base text-left italic sticky'>
+<div className='flex flex-col pt-8 pl-8 text-base text-left italic sticky top-0'>
     <div className={poppins.className}>
         <Link href="/">
         Michael Gately
