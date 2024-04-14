@@ -21,6 +21,10 @@ children: React.ReactNode
 }) {
 return (
 <html lang="en" suppressHydrationWarning>
+  
+<head>
+  <meta property='og:title' content="Michael Gately's Portfolio"/>
+</head>
 
 <body className='grid grid-cols-4 overscroll-none'>
   <ThemeProvider>

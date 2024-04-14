@@ -35,22 +35,10 @@ weight: "700",
 style: "italic"
 })
 
-const bodyPoppins = Poppins({
-subsets: ['latin'],
-weight: "300",
-style: "normal"
-})
-
 const rubik = Rubik({
 subsets: ["latin"],
 weight: "300",
 style: "normal"
-})
-
-const copyrightRubik = Rubik({
-subsets: ['latin'],
-weight: '300',
-style: "italic"
 })
 
 export default function NavSide() {
@@ -82,7 +70,7 @@ return(
         </Link>
     </div>
     <div className='pt-1'>
-        <Link href="https://github.com/michaelgately1" target="_blank" rel="noopener noreferrer"
+        <Link href="https://github.com/michael-gately" target="_blank" rel="noopener noreferrer"
             className={rubik.className.concat(" ", "")}>
         Github
         </Link>
