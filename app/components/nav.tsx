@@ -47,56 +47,58 @@ return (
     </button>
 
     {isModalOpen && (
-    <div className={`fixed inset-0 z-40 overflow-y-auto flex justify-center items-center bg-${theme==='dark' ? 'gray-900' : 'white' }`}>
-        <div className={`text-xl p-8 rounded-lg w-full h-full bg-${theme==='dark' ? 'gray-900' : 'white' }`}>
-            {/* Modal content goes here */}
-            <h2 className="text-2xl font-bold mb-4">
-                <Link href="/" onClick={toggleModal}>
+    <div className={`fixed inset-0 z-40 overflow-y-auto bg-${theme==='dark'
+        ? 'gray-900' : 'white' }`}>
+        <div className='flex justify-center items-center'>
+            <div className={`text-xl p-8 rounded-lg w-full max-w-md bg-${theme==='dark' ? 'gray-900' : 'white' }`}>
+                {/* Modal content goes here */}
+                <h2 className="text-2xl font-bold mb-4">
+                    <Link href="/" onClick={toggleModal}>
                     Michael Gately
+                    </Link>
+                </h2>
+                <div className={rubik.className.concat(" ", " pr-1 pb-2 lg:pb-0 lg:pt-1")}>
+                    <Link href="/skills" onClick={toggleModal}>
+                    Skills
+                    </Link>
+                </div>
+                <div className={rubik.className.concat(" ", " pr-1 pb-2 lg:pb-0 lg:pt-1")}>
+                    <Link href="/work-history" onClick={toggleModal}>
+                    Work History
+                    </Link>
+                </div>
+                <div className={rubik.className.concat(" ", " pr-1 pb-2 lg:pb-0 lg:pt-1")}>
+                    <Link href="/projects" onClick={toggleModal}>
+                    Projects
+                    </Link>
+                </div>
+                <div className={rubik.className.concat(" ", " pr-1 pb-2 lg:pb-0 lg:pt-1")}>
+                    <Link href="/blog" onClick={toggleModal}>
+                    Blog
+                    </Link>
+                </div>
+                <div className='pr-1 pb-2 lg:pb-0 lg:pt-1'>
+                    <Link href="https://github.com/michael-gately" target="_blank" rel="noopener noreferrer"
+                        className={rubik.className.concat(" ", "")} onClick={toggleModal}>
+                Github
                 </Link>
-            </h2>
-            <div className={rubik.className.concat(" ", "pr-1 pb-2 lg:pb-0 lg:pt-1")}>
-                <Link href="/skills" onClick={toggleModal}>
-                Skills
-                </Link>
-            </div>
-            <div className={rubik.className.concat(" ", "pr-1 pb-2 lg:pb-0 lg:pt-1")}>
-                <Link href="/work-history" onClick={toggleModal}>
-                Work History
-                </Link>
-            </div>
-            <div className={rubik.className.concat(" ", "pr-1 pb-2 lg:pb-0 lg:pt-1")}>
-                <Link href="/projects" onClick={toggleModal}>
-                Projects
-                </Link>
-            </div>
-            <div className={rubik.className.concat(" ", "pr-1 pb-2 lg:pb-0 lg:pt-1")}>
-                <Link href="/blog" onClick={toggleModal}>
-                Blog
-                </Link>
-            </div>
-            <div className='pr-1 pb-2 lg:pb-0 lg:pt-1'>
-                <Link href="https://github.com/michael-gately" target="_blank" rel="noopener noreferrer"
-                    className={rubik.className.concat(" ", "")} onClick={toggleModal}>
-        Github
-        </Link>
-    </div>
-    <div className='pr-1 pb-2 lg:pb-0 lg:pt-1'>
-        <Link href=" https://www.linkedin.com/in/michaelgately/" target="_blank" rel="noopener noreferrer"
-                    className={rubik.className.concat(" ", " ")} onClick={toggleModal}>
-        LinkedIn
-        </Link>
-    </div>
-    <div>
-        <ThemeChanger/>
-    </div>
-              <button className=" bg-red-500 text-white font-bold py-2 px-4 rounded mt-4" onClick={toggleModal}>
-                Close
+                </div>
+                <div className='pr-1 pb-2 lg:pb-0 lg:pt-1'>
+                    <Link href=" https://www.linkedin.com/in/michaelgately/" target="_blank" rel="noopener noreferrer"
+                        className={rubik.className.concat(" ", " ")} onClick={toggleModal}>
+                        LinkedIn
+                    </Link>
+                </div>
+                <div>
+                    <ThemeChanger/>
+                </div>
+                <button className=" bg-red-500 text-white font-bold py-2 px-4 rounded mt-4" onClick={toggleModal}>
+                    Close
                 </button>
+                </div>
             </div>
-        </div>
-        )}
-    </div>
+    </div>)}
+</div>
     );
     };
 
