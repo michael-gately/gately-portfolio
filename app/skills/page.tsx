@@ -10,7 +10,7 @@ style: "normal"
 
 export default function Projects() {
 return (
-<div className='pl-8 lg:pl-0 pt-8 pr-16'>
+<div className='pl-8 lg:pl-0 pt-8 pr-8 lg:pr-16'>
     <div className={bodyPoppins.className.concat(" ", " text-left text-base md:text-lg")}>
         Skills
     </div>
