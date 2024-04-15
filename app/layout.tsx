@@ -24,7 +24,7 @@ return (
   <meta property='og:title' content="Michael Gately's Portfolio"/>
 </head>
 
-<body className='lg:grid grid-cols-4 overscroll-none'>
+<body className='md:grid grid-cols-4 overscroll-none'>
   <ThemeProvider>
     <div className='col-span-1'>
       <NavSide />
