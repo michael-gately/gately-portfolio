@@ -1,4 +1,5 @@
 import { Poppins } from 'next/font/google'
+import Image from 'next/image'
 
 const bodyPoppins = Poppins({
 subsets: ['latin'],
@@ -16,7 +17,8 @@ return (
     </div>
     <div className='flex flex-row pt-8'>
         <div className='basis-1/4 pr-5'>
-            <img src="stratisLogo.svg" className='rounded'/>
+            <Image src="stratisLogo.svg" alt="Logo for Stratis IoT" className='rounded' width={500}
+            height={500}/>
         </div>
         <div className='basis-3/4'>
             <div className={bodyPoppins.className.concat(" ", " text-left text-lg")}>

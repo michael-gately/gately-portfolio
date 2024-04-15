@@ -14,14 +14,17 @@ return (
         Athlete&apos;s Grind Automation
     </div>
     <div className={bodyPoppins.className.concat(" ", " pt-8 text-left text-sm md:text-base")}>
-        A friend of mine needed help automating his coffee business for scale.
-        His business needed a way to automatically send emails to a distributor,
-        automatically generate a shipping label depeninding on goods ordered, and
+        Automated a coffee company's wholesale fulfilling process through a hosted Django app.
+        The business needed a way to automatically send emails to a distributor,
+        automatically generate a shipping label depending on goods ordered, and
         have a front end form that is easy and consistent. 
         I was able to do this using a django server
         with an external Shipping Label API, MIME email generation, 
         and pdfkit to create a purchase order to attach.
     </div>
+    <video width="800" height="400" controls preload="auto" className='text-center pt-5'>
+        <source src="AGDemo2.m4v" type="video/mp4" />
+    </video>
 </div>
 )
 }
