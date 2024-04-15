@@ -14,7 +14,7 @@ return (
         Athlete&apos;s Grind Automation
     </div>
     <div className={bodyPoppins.className.concat(" ", " pt-8 text-left text-sm md:text-base")}>
-        Automated a coffee company's wholesale fulfilling process through a hosted Django app.
+        Automated a coffee company&apos;s wholesale fulfilling process through a hosted Django app.
         The business needed a way to automatically send emails to a distributor,
         automatically generate a shipping label depending on goods ordered, and
         have a front end form that is easy and consistent. 
