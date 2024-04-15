@@ -47,8 +47,8 @@ return (
     </button>
 
     {isModalOpen && (
-    <div className={`bg-${theme==='dark' ? 'gray-900' : 'white' } fixed inset-0 z-40 overflow-y-auto flex justify-center items-center`}>
-        <div className={`bg-${theme==='dark' ? 'gray-900' : 'white' } text-xl p-8 rounded-lg w-full h-full`}>
+    <div className={`fixed inset-0 z-40 overflow-y-auto flex justify-center items-center bg-${theme==='dark' ? 'gray-900' : 'white' }`}>
+        <div className={`text-xl p-8 rounded-lg w-full h-full bg-${theme==='dark' ? 'gray-900' : 'white' }`}>
             {/* Modal content goes here */}
             <h2 className="text-2xl font-bold mb-4">
                 <Link href="/" onClick={toggleModal}>
