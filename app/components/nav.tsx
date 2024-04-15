@@ -87,8 +87,8 @@ return (
         LinkedIn
         </Link>
     </div>
-    <div>
-        <ThemeChanger onClick={toggleModal}/>
+    <div onClick={toggleModal}>
+        <ThemeChanger/>
     </div>
               <button className=" bg-red-500 text-white font-bold py-2 px-4 rounded mt-4" onClick={toggleModal}>
                 Close
