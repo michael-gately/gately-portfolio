@@ -47,7 +47,7 @@ return (
     </button>
 
     {isModalOpen && (
-    <div className="fixed inset-0 z-10 overflow-y-auto flex justify-center items-center">
+    <div className="fixed inset-0 z-40 overflow-y-auto flex justify-center items-center">
         <div className={`bg-${theme==='dark' ? 'gray-900' : 'white' } text-xl p-8 rounded-lg w-full h-full`}>
             {/* Modal content goes here */}
             <h2 className="text-2xl font-bold mb-4">
