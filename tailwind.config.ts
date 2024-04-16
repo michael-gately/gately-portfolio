@@ -16,5 +16,13 @@ const config: Config = {
     },
   },
   plugins: [],
+  safelist: [
+    'bg-white',
+    'bg-black',
+    {
+      pattern: /bg-(white|black)/,
+      variants: ['lg', 'md'],
+    },
+  ],
 }
 export default config
