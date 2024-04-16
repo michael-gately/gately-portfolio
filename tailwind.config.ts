@@ -18,7 +18,7 @@ const config: Config = {
   plugins: [],
   safelist: [
     'bg-white',
-    'bg-black',
+    'bg-gray-900',
     {
       pattern: /bg-(white|black)/,
       variants: ['lg', 'md'],
