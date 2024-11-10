@@ -24,13 +24,9 @@ return (
   <meta property='og:title' content="Michael Gately's Portfolio"/>
 </head>
 
-<body className='md:grid grid-cols-4 overscroll-none z-20'>
+<body className='overscroll-none z-20'>
   <ThemeProvider>
-    <div className='col-span-1'>
-      <NavSide />
-    </div>
-    <main className='col-span-3'>{children}</main>
-    <Footer />
+    <main className='p-20'> {children} </main>
   </ThemeProvider>
   <SpeedInsights/>
   <Analytics/>
